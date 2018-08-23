@@ -32,7 +32,7 @@ group :development do
   gem 'rails_layout'
 end
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
 end
 
 group :production do
